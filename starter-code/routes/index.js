@@ -3,6 +3,8 @@ const router  = express.Router();
 
 /* GET home page */
 router.get('/', (req, res, next) => {
+  console.log('Send me to indez');
+  
   res.render('index');
 });
 
